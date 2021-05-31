@@ -16,3 +16,7 @@ NodeJS: https://nodejs.org/en/download
     npm i
 3. To run the test execute
     npm run cy:test
+    
+# Application under test
+
+https://serverest.dev/#/
