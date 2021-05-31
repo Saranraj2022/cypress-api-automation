@@ -4,8 +4,8 @@
 
 The first thing we need to do is to setup our environment. So here are some things that you should have to start this project:
 
-VSCode: https://code.visualstudio.com/download 
-NPM: https://www.npmjs.com/get-npm
+VSCode: https://code.visualstudio.com/download </br>
+NPM: https://www.npmjs.com/get-npm </br>
 NodeJS: https://nodejs.org/en/download
 
 # Steps to execute the test
