@@ -4,8 +4,9 @@
   "description": "Rest API testing using Cypress framework",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "./node_modules/.bin/cypress open",
-    "cypress:run": "./node_modules/.bin/cypress run --spec **/*.spec.js"
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:test": "./node_modules/.bin/cypress run --spec **/*.spec.js",
+    "lint": "eslint cypress/integration/*.spec.js --fix"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,11 @@
   },
   "homepage": "https://github.com/Saranraj2022/cypress-api-automation#readme",
   "devDependencies": {
-    "cypress": "^7.3.0"
+    "babel-eslint": "^10.1.0",
+    "cypress": "^7.3.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-chai-friendly": "^0.7.1",
+    "eslint-plugin-cypress": "^2.11.3",
+    "faker": "^5.5.3"
   }
 }
