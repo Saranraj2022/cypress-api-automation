@@ -4,7 +4,7 @@
 
 The first thing we need to do is to setup our environment. So here are some things that you should have to start this project:
 
-VSCode: https://code.visualstudio.com/download
+VSCode: https://code.visualstudio.com/download 
 NPM: https://www.npmjs.com/get-npm
 NodeJS: https://nodejs.org/en/download
 
